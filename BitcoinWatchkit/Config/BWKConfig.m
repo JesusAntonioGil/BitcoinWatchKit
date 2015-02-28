@@ -1,14 +1,12 @@
 //
-//  PrefixHeader.pch
+//  BWKConfig.m
 //  BitcoinWatchkit
 //
 //  Created by Jesus Antonio Gil on 28/2/15.
 //  Copyright (c) 2015 Jesus Antonio Gil. All rights reserved.
 //
 
-#ifndef BitcoinWatchkit_PrefixHeader_pch
-#define BitcoinWatchkit_PrefixHeader_pch
+#import "BWKConfig.h"
 
-#import <UIKit/UIKit.h>
 
-#endif
+NSString * const BWKBitcoinURLInfomation = @"https://api.bitcoinaverage.com/ticker/EUR/";

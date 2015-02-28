@@ -14,6 +14,20 @@
 		EA2EC5E41AA268EC00763ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC5E31AA268EC00763ED0 /* Images.xcassets */; };
 		EA2EC5E71AA268EC00763ED0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC5E51AA268EC00763ED0 /* LaunchScreen.xib */; };
 		EA2EC5F31AA268EC00763ED0 /* BitcoinWatchkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC5F21AA268EC00763ED0 /* BitcoinWatchkitTests.m */; };
+		EA2EC60D1AA26EC000763ED0 /* BWKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC60C1AA26EC000763ED0 /* BWKConfig.m */; };
+		EA2EC60E1AA26EC000763ED0 /* BWKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC60C1AA26EC000763ED0 /* BWKConfig.m */; };
+		EA2EC6111AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6101AA26FDA00763ED0 /* BWKBitcoinViewController.m */; };
+		EA2EC6121AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6101AA26FDA00763ED0 /* BWKBitcoinViewController.m */; };
+		EA2EC6231AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6221AA2739400763ED0 /* BWKBitcoinPresenter.m */; };
+		EA2EC6241AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6221AA2739400763ED0 /* BWKBitcoinPresenter.m */; };
+		EA2EC6281AA2748C00763ED0 /* BWKBitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6271AA2748C00763ED0 /* BWKBitcoin.m */; };
+		EA2EC6291AA2748C00763ED0 /* BWKBitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6271AA2748C00763ED0 /* BWKBitcoin.m */; };
+		EA2EC6301AA2768F00763ED0 /* BWKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC62F1AA2768F00763ED0 /* BWKRequest.m */; };
+		EA2EC6311AA2768F00763ED0 /* BWKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC62F1AA2768F00763ED0 /* BWKRequest.m */; };
+		EA2EC6341AA276CC00763ED0 /* BWKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6331AA276CC00763ED0 /* BWKResponse.m */; };
+		EA2EC6351AA276CC00763ED0 /* BWKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6331AA276CC00763ED0 /* BWKResponse.m */; };
+		EA2EC6381AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */; };
+		EA2EC6391AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +43,6 @@
 /* Begin PBXFileReference section */
 		EA10C8B21AA26B9F00508567 /* BWKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKAppDelegate.h; sourceTree = "<group>"; };
 		EA10C8B31AA26B9F00508567 /* BWKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWKAppDelegate.m; sourceTree = "<group>"; };
-		EA10C8BC1AA26C0900508567 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EA2EC5D31AA268EC00763ED0 /* BitcoinWatchkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinWatchkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2EC5D71AA268EC00763ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2EC5D81AA268EC00763ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,6 +52,20 @@
 		EA2EC5EC1AA268EC00763ED0 /* BitcoinWatchkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinWatchkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2EC5F11AA268EC00763ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2EC5F21AA268EC00763ED0 /* BitcoinWatchkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinWatchkitTests.m; sourceTree = "<group>"; };
+		EA2EC60B1AA26EC000763ED0 /* BWKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKConfig.h; sourceTree = "<group>"; };
+		EA2EC60C1AA26EC000763ED0 /* BWKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWKConfig.m; sourceTree = "<group>"; };
+		EA2EC60F1AA26FDA00763ED0 /* BWKBitcoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKBitcoinViewController.h; sourceTree = "<group>"; };
+		EA2EC6101AA26FDA00763ED0 /* BWKBitcoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWKBitcoinViewController.m; sourceTree = "<group>"; };
+		EA2EC6211AA2739400763ED0 /* BWKBitcoinPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKBitcoinPresenter.h; path = Presenter/BWKBitcoinPresenter.h; sourceTree = "<group>"; };
+		EA2EC6221AA2739400763ED0 /* BWKBitcoinPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKBitcoinPresenter.m; path = Presenter/BWKBitcoinPresenter.m; sourceTree = "<group>"; };
+		EA2EC6261AA2748C00763ED0 /* BWKBitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKBitcoin.h; path = Bitcoin/BWKBitcoin.h; sourceTree = "<group>"; };
+		EA2EC6271AA2748C00763ED0 /* BWKBitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKBitcoin.m; path = Bitcoin/BWKBitcoin.m; sourceTree = "<group>"; };
+		EA2EC62E1AA2768F00763ED0 /* BWKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKRequest.h; path = Request/BWKRequest.h; sourceTree = "<group>"; };
+		EA2EC62F1AA2768F00763ED0 /* BWKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKRequest.m; path = Request/BWKRequest.m; sourceTree = "<group>"; };
+		EA2EC6321AA276CC00763ED0 /* BWKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKResponse.h; path = Response/BWKResponse.h; sourceTree = "<group>"; };
+		EA2EC6331AA276CC00763ED0 /* BWKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKResponse.m; path = Response/BWKResponse.m; sourceTree = "<group>"; };
+		EA2EC6361AA2796300763ED0 /* BWKBitcoinCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKBitcoinCommunicator.h; path = Communicators/BitcoinCommunicator/BWKBitcoinCommunicator.h; sourceTree = "<group>"; };
+		EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKBitcoinCommunicator.m; path = Communicators/BitcoinCommunicator/BWKBitcoinCommunicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +98,8 @@
 		EA10C8B61AA26BC100508567 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				EA10C8B71AA26BC100508567 /* Data */,
 				EA10C8B81AA26BC100508567 /* Model */,
+				EA10C8B71AA26BC100508567 /* Data */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -80,6 +107,9 @@
 		EA10C8B71AA26BC100508567 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC62A1AA275FB00763ED0 /* Request */,
+				EA2EC62B1AA2760300763ED0 /* Response */,
+				EA2EC62C1AA2760900763ED0 /* Communicators */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -87,6 +117,7 @@
 		EA10C8B81AA26BC100508567 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC6251AA2747600763ED0 /* Bitcoin */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +125,8 @@
 		EA10C8B91AA26BC100508567 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC60B1AA26EC000763ED0 /* BWKConfig.h */,
+				EA2EC60C1AA26EC000763ED0 /* BWKConfig.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -109,6 +142,9 @@
 		EA10C8BB1AA26BC100508567 /* Bitcoin */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC6201AA2738800763ED0 /* Presenter */,
+				EA2EC60F1AA26FDA00763ED0 /* BWKBitcoinViewController.h */,
+				EA2EC6101AA26FDA00763ED0 /* BWKBitcoinViewController.m */,
 			);
 			path = Bitcoin;
 			sourceTree = "<group>";
@@ -151,7 +187,6 @@
 			children = (
 				EA2EC5D71AA268EC00763ED0 /* Info.plist */,
 				EA2EC5D81AA268EC00763ED0 /* main.m */,
-				EA10C8BC1AA26C0900508567 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,6 +206,59 @@
 				EA2EC5F11AA268EC00763ED0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2EC6201AA2738800763ED0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6211AA2739400763ED0 /* BWKBitcoinPresenter.h */,
+				EA2EC6221AA2739400763ED0 /* BWKBitcoinPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		EA2EC6251AA2747600763ED0 /* Bitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6261AA2748C00763ED0 /* BWKBitcoin.h */,
+				EA2EC6271AA2748C00763ED0 /* BWKBitcoin.m */,
+			);
+			name = Bitcoin;
+			sourceTree = "<group>";
+		};
+		EA2EC62A1AA275FB00763ED0 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC62E1AA2768F00763ED0 /* BWKRequest.h */,
+				EA2EC62F1AA2768F00763ED0 /* BWKRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		EA2EC62B1AA2760300763ED0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6321AA276CC00763ED0 /* BWKResponse.h */,
+				EA2EC6331AA276CC00763ED0 /* BWKResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		EA2EC62C1AA2760900763ED0 /* Communicators */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC62D1AA2761000763ED0 /* BitcoinCommunicator */,
+			);
+			name = Communicators;
+			sourceTree = "<group>";
+		};
+		EA2EC62D1AA2761000763ED0 /* BitcoinCommunicator */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6361AA2796300763ED0 /* BWKBitcoinCommunicator.h */,
+				EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */,
+			);
+			name = BitcoinCommunicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +362,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2EC6381AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */,
+				EA2EC6231AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */,
+				EA2EC6111AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */,
 				EA10C8B41AA26B9F00508567 /* BWKAppDelegate.m in Sources */,
+				EA2EC6341AA276CC00763ED0 /* BWKResponse.m in Sources */,
+				EA2EC6281AA2748C00763ED0 /* BWKBitcoin.m in Sources */,
 				EA2EC5D91AA268EC00763ED0 /* main.m in Sources */,
+				EA2EC60D1AA26EC000763ED0 /* BWKConfig.m in Sources */,
+				EA2EC6301AA2768F00763ED0 /* BWKRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +378,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2EC6391AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */,
+				EA2EC6241AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */,
+				EA2EC6121AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */,
 				EA10C8B51AA26B9F00508567 /* BWKAppDelegate.m in Sources */,
+				EA2EC6351AA276CC00763ED0 /* BWKResponse.m in Sources */,
+				EA2EC6291AA2748C00763ED0 /* BWKBitcoin.m in Sources */,
 				EA2EC5F31AA268EC00763ED0 /* BitcoinWatchkitTests.m in Sources */,
+				EA2EC60E1AA26EC000763ED0 /* BWKConfig.m in Sources */,
+				EA2EC6311AA2768F00763ED0 /* BWKRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = BitcoinWatchkit/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BitcoinWatchkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = BitcoinWatchkit/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BitcoinWatchkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
