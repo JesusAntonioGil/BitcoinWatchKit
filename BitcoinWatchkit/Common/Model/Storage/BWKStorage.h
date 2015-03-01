@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BWKBitcoin.h"
 
 
 @interface BWKStorage : NSObject
 
-@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) BWKBitcoin *bitcoin;
+@property (assign, nonatomic) float bitcoinValue;
 
 + (BWKStorage *)shared;
 

@@ -25,4 +25,33 @@
     return self;
 }
 
+#pragma mark - Secure Coding
+
++ (BOOL)supportsSecureCoding
+{
+    return YES;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeFloat:self.avg forKey:@"avg"];
+    [aCoder encodeFloat:self.ask forKey:@"ask"];
+    [aCoder encodeFloat:self.bid forKey:@"bid"];
+    [aCoder encodeFloat:self.last forKey:@"last"];
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if(self)
+    {
+        self.avg = [aDecoder decodeFloatForKey:@"avg"];
+        self.ask = [aDecoder decodeFloatForKey:@"ask"];
+        self.bid = [aDecoder decodeFloatForKey:@"bid"];
+        self.last = [aDecoder decodeFloatForKey:@"last"];
+    }
+    
+    return self;
+}
+
 @end

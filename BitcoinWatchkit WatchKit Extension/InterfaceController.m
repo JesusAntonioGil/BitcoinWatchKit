@@ -7,6 +7,7 @@
 //
 
 #import "InterfaceController.h"
+#import "BWKStorage.h"
 
 
 @interface InterfaceController()
@@ -27,6 +28,8 @@
 - (void)willActivate
 {
     [super willActivate];
+    
+    [self setViewInformation];
 }
 
 - (void)didDeactivate
@@ -41,8 +44,28 @@
     NSDictionary *appData = @{@"action": @"refresh"};
     
     [WKInterfaceController openParentApplication:appData reply:^(NSDictionary *replyInfo, NSError *error) {
-         NSLog(@"%@ %@",replyInfo, error);
     }];
+}
+
+#pragma mark - NOTIFICATIONS
+
+- (void)handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(UILocalNotification *)localNotification
+{
+    if([identifier isEqualToString:@"refreshWath"])
+    {
+        [self setViewInformation];
+    }
+}
+
+#pragma mark - PRIVATE
+
+- (void)setViewInformation
+{
+    if([BWKStorage shared].bitcoinValue)
+    {
+        [self.valueLabel setHidden:NO];
+        [self.valueLabel setText:[NSString stringWithFormat:@"%.02f€", [BWKStorage shared].bitcoinValue]];
+    }
 }
 
 @end

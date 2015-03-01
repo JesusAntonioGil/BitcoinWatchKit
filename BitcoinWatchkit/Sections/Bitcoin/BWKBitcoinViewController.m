@@ -8,6 +8,7 @@
 
 #import "BWKBitcoinViewController.h"
 #import "BWKBitcoinPresenter.h"
+#import "BWKStorage.h"
 
 
 @interface BWKBitcoinViewController () <BWKBitcoinViewControllerInterface>
@@ -83,6 +84,11 @@
     self.lastUpdatedLabel.text = [self stringDate:[NSDate date]];
         
     self.lastBitcoin = bitcoin;
+    
+    [BWKStorage shared].bitcoin = bitcoin;
+    [BWKStorage shared].bitcoinValue = bitcoin.avg;
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshWath" object:self userInfo:nil];
 }
 
 @end

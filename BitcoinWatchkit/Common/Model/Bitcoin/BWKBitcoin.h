@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface BWKBitcoin : NSObject
+@interface BWKBitcoin : NSObject <NSCoding>
 
 @property (assign, nonatomic) float avg;
 @property (assign, nonatomic) float ask;
