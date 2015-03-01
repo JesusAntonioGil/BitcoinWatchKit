@@ -35,9 +35,15 @@
     if(self)
     {
         self.viewController = viewController;
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getBitcoinInformation) name:@"BWKRefreshNotification" object:nil];
     }
     
     return self;
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"BWKRefreshNotification" object:nil];
 }
 
 #pragma mark - PUBLIC

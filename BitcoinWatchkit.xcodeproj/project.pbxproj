@@ -28,6 +28,15 @@
 		EA2EC6351AA276CC00763ED0 /* BWKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6331AA276CC00763ED0 /* BWKResponse.m */; };
 		EA2EC6381AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */; };
 		EA2EC6391AA2796300763ED0 /* BWKBitcoinCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */; };
+		EA2EC6441AA2893D00763ED0 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6431AA2893D00763ED0 /* InterfaceController.m */; };
+		EA2EC6461AA2893D00763ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC6451AA2893D00763ED0 /* Images.xcassets */; };
+		EA2EC64A1AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC6491AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app */; };
+		EA2EC6521AA2893D00763ED0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC6501AA2893D00763ED0 /* Interface.storyboard */; };
+		EA2EC6541AA2893D00763ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2EC6531AA2893D00763ED0 /* Images.xcassets */; };
+		EA2EC6571AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA2EC63E1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA2EC6641AA2936A00763ED0 /* BWKStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6631AA2936A00763ED0 /* BWKStorage.m */; };
+		EA2EC6651AA2936A00763ED0 /* BWKStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6631AA2936A00763ED0 /* BWKStorage.m */; };
+		EA2EC6661AA2936A00763ED0 /* BWKStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2EC6631AA2936A00763ED0 /* BWKStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,35 @@
 			remoteGlobalIDString = EA2EC5D21AA268EC00763ED0;
 			remoteInfo = BitcoinWatchkit;
 		};
+		EA2EC64B1AA2893D00763ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2EC5CB1AA268EC00763ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2EC6481AA2893D00763ED0;
+			remoteInfo = "BitcoinWatchkit WatchKit App";
+		};
+		EA2EC6551AA2893D00763ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2EC5CB1AA268EC00763ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2EC63D1AA2893D00763ED0;
+			remoteInfo = "BitcoinWatchkit WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA2EC65E1AA2893D00763ED0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA2EC6571AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EA10C8B21AA26B9F00508567 /* BWKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKAppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +103,19 @@
 		EA2EC6331AA276CC00763ED0 /* BWKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKResponse.m; path = Response/BWKResponse.m; sourceTree = "<group>"; };
 		EA2EC6361AA2796300763ED0 /* BWKBitcoinCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKBitcoinCommunicator.h; path = Communicators/BitcoinCommunicator/BWKBitcoinCommunicator.h; sourceTree = "<group>"; };
 		EA2EC6371AA2796300763ED0 /* BWKBitcoinCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKBitcoinCommunicator.m; path = Communicators/BitcoinCommunicator/BWKBitcoinCommunicator.m; sourceTree = "<group>"; };
+		EA2EC63E1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitcoinWatchkit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2EC6411AA2893D00763ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2EC6421AA2893D00763ED0 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		EA2EC6431AA2893D00763ED0 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		EA2EC6451AA2893D00763ED0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA2EC6491AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitcoinWatchkit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2EC64F1AA2893D00763ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2EC6511AA2893D00763ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EA2EC6531AA2893D00763ED0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA2EC65F1AA2897700763ED0 /* BitcoinWatchkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BitcoinWatchkit.entitlements; sourceTree = "<group>"; };
+		EA2EC6601AA2899400763ED0 /* BitcoinWatchkit WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BitcoinWatchkit WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		EA2EC6621AA2936A00763ED0 /* BWKStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWKStorage.h; path = Storage/BWKStorage.h; sourceTree = "<group>"; };
+		EA2EC6631AA2936A00763ED0 /* BWKStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWKStorage.m; path = Storage/BWKStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +127,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EA2EC5E91AA268EC00763ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2EC63B1AA2893D00763ED0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,6 +174,7 @@
 		EA10C8B81AA26BC100508567 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC6611AA2924C00763ED0 /* Storage */,
 				EA2EC6251AA2747600763ED0 /* Bitcoin */,
 			);
 			path = Model;
@@ -154,6 +212,8 @@
 			children = (
 				EA2EC5D51AA268EC00763ED0 /* BitcoinWatchkit */,
 				EA2EC5EF1AA268EC00763ED0 /* BitcoinWatchkitTests */,
+				EA2EC63F1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension */,
+				EA2EC64D1AA2893D00763ED0 /* BitcoinWatchkit WatchKit App */,
 				EA2EC5D41AA268EC00763ED0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +223,8 @@
 			children = (
 				EA2EC5D31AA268EC00763ED0 /* BitcoinWatchkit.app */,
 				EA2EC5EC1AA268EC00763ED0 /* BitcoinWatchkitTests.xctest */,
+				EA2EC63E1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex */,
+				EA2EC6491AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +232,7 @@
 		EA2EC5D51AA268EC00763ED0 /* BitcoinWatchkit */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EC65F1AA2897700763ED0 /* BitcoinWatchkit.entitlements */,
 				EA10C8B91AA26BC100508567 /* Config */,
 				EA10C8B11AA26B9F00508567 /* Main */,
 				EA10C8BA1AA26BC100508567 /* Sections */,
@@ -261,6 +324,53 @@
 			name = BitcoinCommunicator;
 			sourceTree = "<group>";
 		};
+		EA2EC63F1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6601AA2899400763ED0 /* BitcoinWatchkit WatchKit Extension.entitlements */,
+				EA2EC6421AA2893D00763ED0 /* InterfaceController.h */,
+				EA2EC6431AA2893D00763ED0 /* InterfaceController.m */,
+				EA2EC6451AA2893D00763ED0 /* Images.xcassets */,
+				EA2EC6401AA2893D00763ED0 /* Supporting Files */,
+			);
+			path = "BitcoinWatchkit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EA2EC6401AA2893D00763ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6411AA2893D00763ED0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2EC64D1AA2893D00763ED0 /* BitcoinWatchkit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6501AA2893D00763ED0 /* Interface.storyboard */,
+				EA2EC6531AA2893D00763ED0 /* Images.xcassets */,
+				EA2EC64E1AA2893D00763ED0 /* Supporting Files */,
+			);
+			path = "BitcoinWatchkit WatchKit App";
+			sourceTree = "<group>";
+		};
+		EA2EC64E1AA2893D00763ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC64F1AA2893D00763ED0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2EC6611AA2924C00763ED0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EC6621AA2936A00763ED0 /* BWKStorage.h */,
+				EA2EC6631AA2936A00763ED0 /* BWKStorage.m */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,10 +381,12 @@
 				EA2EC5CF1AA268EC00763ED0 /* Sources */,
 				EA2EC5D01AA268EC00763ED0 /* Frameworks */,
 				EA2EC5D11AA268EC00763ED0 /* Resources */,
+				EA2EC65E1AA2893D00763ED0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EA2EC6561AA2893D00763ED0 /* PBXTargetDependency */,
 			);
 			name = BitcoinWatchkit;
 			productName = BitcoinWatchkit;
@@ -299,6 +411,39 @@
 			productReference = EA2EC5EC1AA268EC00763ED0 /* BitcoinWatchkitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA2EC63D1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2EC65B1AA2893D00763ED0 /* Build configuration list for PBXNativeTarget "BitcoinWatchkit WatchKit Extension" */;
+			buildPhases = (
+				EA2EC63A1AA2893D00763ED0 /* Sources */,
+				EA2EC63B1AA2893D00763ED0 /* Frameworks */,
+				EA2EC63C1AA2893D00763ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2EC64C1AA2893D00763ED0 /* PBXTargetDependency */,
+			);
+			name = "BitcoinWatchkit WatchKit Extension";
+			productName = "BitcoinWatchkit WatchKit Extension";
+			productReference = EA2EC63E1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		EA2EC6481AA2893D00763ED0 /* BitcoinWatchkit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2EC6581AA2893D00763ED0 /* Build configuration list for PBXNativeTarget "BitcoinWatchkit WatchKit App" */;
+			buildPhases = (
+				EA2EC6471AA2893D00763ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitcoinWatchkit WatchKit App";
+			productName = "BitcoinWatchkit WatchKit App";
+			productReference = EA2EC6491AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,10 +456,29 @@
 				TargetAttributes = {
 					EA2EC5D21AA268EC00763ED0 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4885SCWLF7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EA2EC5EB1AA268EC00763ED0 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = EA2EC5D21AA268EC00763ED0;
+					};
+					EA2EC63D1AA2893D00763ED0 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4885SCWLF7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EA2EC6481AA2893D00763ED0 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4885SCWLF7;
 					};
 				};
 			};
@@ -333,6 +497,8 @@
 			targets = (
 				EA2EC5D21AA268EC00763ED0 /* BitcoinWatchkit */,
 				EA2EC5EB1AA268EC00763ED0 /* BitcoinWatchkitTests */,
+				EA2EC63D1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension */,
+				EA2EC6481AA2893D00763ED0 /* BitcoinWatchkit WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -355,6 +521,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA2EC63C1AA2893D00763ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2EC64A1AA2893D00763ED0 /* BitcoinWatchkit WatchKit App.app in Resources */,
+				EA2EC6461AA2893D00763ED0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2EC6471AA2893D00763ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2EC6521AA2893D00763ED0 /* Interface.storyboard in Resources */,
+				EA2EC6541AA2893D00763ED0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +550,7 @@
 				EA2EC6231AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */,
 				EA2EC6111AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */,
 				EA10C8B41AA26B9F00508567 /* BWKAppDelegate.m in Sources */,
+				EA2EC6641AA2936A00763ED0 /* BWKStorage.m in Sources */,
 				EA2EC6341AA276CC00763ED0 /* BWKResponse.m in Sources */,
 				EA2EC6281AA2748C00763ED0 /* BWKBitcoin.m in Sources */,
 				EA2EC5D91AA268EC00763ED0 /* main.m in Sources */,
@@ -382,11 +567,21 @@
 				EA2EC6241AA2739400763ED0 /* BWKBitcoinPresenter.m in Sources */,
 				EA2EC6121AA26FDA00763ED0 /* BWKBitcoinViewController.m in Sources */,
 				EA10C8B51AA26B9F00508567 /* BWKAppDelegate.m in Sources */,
+				EA2EC6651AA2936A00763ED0 /* BWKStorage.m in Sources */,
 				EA2EC6351AA276CC00763ED0 /* BWKResponse.m in Sources */,
 				EA2EC6291AA2748C00763ED0 /* BWKBitcoin.m in Sources */,
 				EA2EC5F31AA268EC00763ED0 /* BitcoinWatchkitTests.m in Sources */,
 				EA2EC60E1AA26EC000763ED0 /* BWKConfig.m in Sources */,
 				EA2EC6311AA2768F00763ED0 /* BWKRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2EC63A1AA2893D00763ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2EC6661AA2936A00763ED0 /* BWKStorage.m in Sources */,
+				EA2EC6441AA2893D00763ED0 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +592,16 @@
 			isa = PBXTargetDependency;
 			target = EA2EC5D21AA268EC00763ED0 /* BitcoinWatchkit */;
 			targetProxy = EA2EC5ED1AA268EC00763ED0 /* PBXContainerItemProxy */;
+		};
+		EA2EC64C1AA2893D00763ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2EC6481AA2893D00763ED0 /* BitcoinWatchkit WatchKit App */;
+			targetProxy = EA2EC64B1AA2893D00763ED0 /* PBXContainerItemProxy */;
+		};
+		EA2EC6561AA2893D00763ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2EC63D1AA2893D00763ED0 /* BitcoinWatchkit WatchKit Extension */;
+			targetProxy = EA2EC6551AA2893D00763ED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +620,14 @@
 				EA2EC5E61AA268EC00763ED0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA2EC6501AA2893D00763ED0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2EC6511AA2893D00763ED0 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -504,10 +717,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitcoinWatchkit/BitcoinWatchkit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BitcoinWatchkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -515,10 +732,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitcoinWatchkit/BitcoinWatchkit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BitcoinWatchkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -556,6 +777,74 @@
 			};
 			name = Release;
 		};
+		EA2EC6591AA2893D00763ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BitcoinWatchkit_WatchKit_Extension;
+				INFOPLIST_FILE = "BitcoinWatchkit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		EA2EC65A1AA2893D00763ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = BitcoinWatchkit_WatchKit_Extension;
+				INFOPLIST_FILE = "BitcoinWatchkit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		EA2EC65C1AA2893D00763ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BitcoinWatchkit WatchKit Extension/BitcoinWatchkit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitcoinWatchkit WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA2EC65D1AA2893D00763ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BitcoinWatchkit WatchKit Extension/BitcoinWatchkit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BitcoinWatchkit WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,6 +874,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EA2EC6581AA2893D00763ED0 /* Build configuration list for PBXNativeTarget "BitcoinWatchkit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2EC6591AA2893D00763ED0 /* Debug */,
+				EA2EC65A1AA2893D00763ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA2EC65B1AA2893D00763ED0 /* Build configuration list for PBXNativeTarget "BitcoinWatchkit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2EC65C1AA2893D00763ED0 /* Debug */,
+				EA2EC65D1AA2893D00763ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

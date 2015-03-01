@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="136" alignment="left" text="0.00€" textAlignment="center" id="ERd-jN-vMi">
+                            <fontDescription key="font" type="boldSystem" pointSize="30"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Refresh" id="7Lt-f7-qDA">
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                            <connections>
+                                <action selector="onRefreshButtonTap" destination="AgC-eL-Hgc" id="tOH-VB-3Sh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="refreshButton" destination="7Lt-f7-qDA" id="ZD2-Az-XpN"/>
+                        <outlet property="valueLabel" destination="ERd-jN-vMi" id="dWI-cD-f5d"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

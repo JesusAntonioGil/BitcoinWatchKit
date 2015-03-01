@@ -22,29 +22,14 @@
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply
 {
-    
+    NSString *action = userInfo[@"action"];
+    if([action isEqualToString:@"refresh"])
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"BWKRefreshNotification" object:nil];
+    }
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-   
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    
-}
 
 @end
