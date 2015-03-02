@@ -43,18 +43,11 @@
 {
     NSDictionary *appData = @{@"action": @"refresh"};
     
+    __weak InterfaceController *weakSelf = self;
     [WKInterfaceController openParentApplication:appData reply:^(NSDictionary *replyInfo, NSError *error) {
+        __strong InterfaceController *strongSelf = weakSelf;
+        [strongSelf setViewInformation];
     }];
-}
-
-#pragma mark - NOTIFICATIONS
-
-- (void)handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(UILocalNotification *)localNotification
-{
-    if([identifier isEqualToString:@"refreshWath"])
-    {
-        [self setViewInformation];
-    }
 }
 
 #pragma mark - PRIVATE

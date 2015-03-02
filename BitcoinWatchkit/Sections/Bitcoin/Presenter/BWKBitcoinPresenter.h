@@ -23,5 +23,6 @@
 - (instancetype)initWithViewController:(UIViewController<BWKBitcoinViewControllerInterface> *)viewController;
 - (void)viewIsReady;
 - (void)getBitcoinInformation;
+- (void)replyToWatch;
 
 @end

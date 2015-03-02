@@ -27,7 +27,7 @@
     NSString *action = userInfo[@"action"];
     if([action isEqualToString:@"refresh"])
     {
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"BWKRefreshNotification" object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"BWKRefreshNotification" object:reply];
     }
 }
 

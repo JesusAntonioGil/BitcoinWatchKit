@@ -88,7 +88,7 @@
     [BWKStorage shared].bitcoin = bitcoin;
     [BWKStorage shared].bitcoinValue = bitcoin.avg;
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshWath" object:self userInfo:nil];
+    [self.presenter replyToWatch];
 }
 
 @end

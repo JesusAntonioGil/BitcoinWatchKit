@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) UIViewController<BWKBitcoinViewControllerInterface> *viewController;
 @property (strong, nonatomic) BWKBitcoinCommunicator *bitcoinCommunicator;
+@property (copy, nonatomic) void (^reply) (NSDictionary *);
 
 @end
 
@@ -46,6 +47,13 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"BWKRefreshNotification" object:nil];
 }
 
+#pragma mark - NOTIFICATIONS
+
+- (void)refreshWithNotification:(NSNotification *)notification
+{
+    self.reply = notification.object;
+}
+
 #pragma mark - PUBLIC
 
 - (void)viewIsReady
@@ -69,5 +77,12 @@
     }];
 }
 
+- (void)replyToWatch
+{
+    if(self.reply)
+    {
+        self.reply(@{});
+    }
+}
 
 @end
